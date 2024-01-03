@@ -1,0 +1,22 @@
+{
+    "links" : {
+        "facebook"  : "https://facebook.com/",
+        "instagram" : "https://www.instagram.com/idougrram.js/",
+        "twitter"   : "https://twitter.com/",
+        "telegram"  : "https://telegram.com/"
+    },
+    "images" : {
+        "logo"      : "src/img/post3.png",
+        "service1"  : "src/img/colorsea.png",
+        "service2"  : "src/img/colorsea.png",
+        "service3"  : "src/img/colorsea.png",
+        "about1"    : "src/img/About_me_rafiki.png",
+        "about2"    : "src/img/At the_office_amico.png",
+        "about3"    : "src/img/File_bundle_amico.png",
+        "work1"     : "src/img/logo1.png",
+        "work2"     : "src/img/logo2.jpg",
+        "work3"     : "src/img/logo1.png",
+        "work4"     : "src/img/logo2.jpg",
+        "work5"     : "src/img/logo1.png"
+    }
+}

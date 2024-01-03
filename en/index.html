@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <title>ColorSea</title>
+</head>
+<body>
+    
+    <script>
+        var urlx = document.URL.replace(/en\//g,"");
+        document.head.innerHTML += '<base href="'+ urlx + '">'
+    </script>
+    <!--*header-->
+    <header>
+        <article class="wc-sb">
+            <div class="left-hed wcc">
+                <button>Start Now</button>
+            </div>
+            <div class="center-hed wcc">
+                <img src="" id="logo">
+            </div>
+            <div class="right-hed wcc">
+                <div class="lang wcc">
+                    <div class="lang-bord wcc">
+                        <img src="src/img/sa.png">
+                    </div>
+                    <div class="lang-bord wcc">
+                        <h3>ARABEC</h3>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </header>
+    <!--*intro-->
+    <section class="intro">
+        <article class="intro-box wcc">
+            <div class="hi">
+                <h1 id="intro1"></h1>
+            </div>
+            <div class="hi">
+                <h3 id="intro2"></h3>
+            </div>
+            <div class="hi">
+                <button>Start now</button>
+            </div>
+        </article>
+    </section>
+    <!--*services-->
+    <section>
+        <article class="serv">
+            <div class="serv-bord">
+                <div class="top-serv">
+                    <img src="" id="service1">
+                </div>
+                <div class="body-serv">
+                    <div class="title-serv">
+                        <h1 id="titleS1"></h1>
+                    </div>
+                    <div class="desc-serv">
+                        <p id="descS1"></p>
+                    </div>
+                </div>
+                <div class="bottom-serv">
+                    <button>Send request</button>
+                </div>
+            </div>
+            <div class="serv-bord">
+                <div class="top-serv">
+                    <img src="" id="service2">
+                </div>
+                <div class="body-serv">
+                    <div class="title-serv">
+                        <h1 id="titleS2"></h1>
+                    </div>
+                    <div class="desc-serv">
+                        <p id="descS2"></p>
+                    </div>
+                </div>
+                <div class="bottom-serv">
+                    <button>Send request</button>
+                </div>
+            </div>
+            <div class="serv-bord">
+                <div class="top-serv">
+                    <img src="" id="service3">
+                </div>
+                <div class="body-serv">
+                    <div class="title-serv">
+                        <h1 id="titleS3"></h1>
+                    </div>
+                    <div class="desc-serv">
+                        <p id="descS3"></p>
+                    </div>
+                </div>
+                <div class="bottom-serv">
+                    <button>Send request</button>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!--*about us-->
+    <section>
+        <article class="about-box">
+            <div class="bord-about">
+                <div class="left-about wcc">
+                    <img src="" id="about1">
+                </div>
+                <div class="right-about wcc">
+                    <div class="div-about">
+                        <h1 id="aboutT1"></h1>
+                    </div>
+                    <div class="div-about">
+                        <p id="aboutD1"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="bord-about" style="direction: rtl;margin-top: 20px;">
+                <div class="left-about wcc">
+                    <img src="" id="about2">
+                </div>
+                <div class="right-about wcc">
+                    <div class="div-about">
+                        <h1 id="aboutT2"></h1>
+                    </div>
+                    <div class="div-about">
+                        <p id="aboutD2"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="bord-about" style="margin-top: 20px;">
+                <div class="left-about wcc">
+                    <img src="" id="about3">
+                </div>
+                <div class="right-about wcc">
+                    <div class="div-about">
+                        <h1 id="aboutT3"></h1>
+                    </div>
+                    <div class="div-about">
+                        <p id="aboutD3"></p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!--*works-->
+    <section>
+        <article class="work-box">
+            <div class="bord-work">
+                <img src="" id="work1">
+            </div>
+            <div class="bord-work">
+                <img src="" id="work2">
+            </div>
+            <div class="bord-work">
+                <img src="" id="work3">
+            </div>
+            <div class="bord-work">
+                <img src="" id="work4">
+            </div>
+            <div class="bord-work">
+                <img src="" id="work5">
+            </div>
+        </article>
+    </section>
+    <!--*requeste-->
+    <section class="request">
+        <article class="box-request wcc">
+            <div class="div-req">
+                <h1 id="requestT"></h1>
+            </div>
+            <div class="div-req">
+                <h3 id="requestD"></h3>
+            </div>
+            <div class="div-req">
+                <button>Get started</button>
+            </div>
+        </article>
+    </section>
+    <!--*contact-->
+    <section style="margin-top: 70px;">
+        <article class="contact-box w-fs-c">
+            <div class="left-contact wcc">
+                <form method="POST" class="wcc" id="form">
+                    <div class="bord-inp">
+                        <input type="email" required placeholder="Email" id="email" name="email">
+                    </div>
+                    <div class="bord-inp">
+                        <textarea name="text" placeholder="Your request" id="text" required></textarea>
+                    </div>
+                    <div class="bord-inp">
+                        <button type="submit" name="send">Send message</button>
+                    </div>
+                </form>
+            </div>
+            <script>
+                var email = document.getElementById('email').value;
+                var text = document.getElementById('text').value;
+                const form = document.getElementById('form');
+
+                form.onsubmit = (event)=>{
+                    event.preventDefault();
+                    var values = new FormData(form);
+                    fetch("src/api/email.php" , {
+                        method : "POST",
+                        body : values
+                    });
+                }
+                
+            </script>
+            <div class="right-contact">
+                <div class="media-links w-fs-c">
+                    <a href="" target="_blank" id="facebook">
+                        <div class="link-bord">
+                            <div class="left-link wcc">
+                                <img src="src/img/facebook.svg"">
+                            </div>
+                            <p>Facebook</p>
+                        </div>
+                    </a>
+                    <a href="" target="_blank" id="instagram">
+                        <div class="link-bord">
+                            <div class="left-link wcc">
+                                <img src="src/img/instagram.svg">
+                            </div>
+                            <p>Instagram</p>
+                        </div>
+                    </a>
+                    <a href="" target="_blank" id="telegram">
+                        <div class="link-bord">
+                            <div class="left-link wcc">
+                                <img src="src/img/telegram.svg">
+                            </div>
+                            <p>Telegram</p>
+                        </div>
+                    </a>
+                    <a href="" target="_blank" id="twitter">
+                        <div class="link-bord">
+                            <div class="left-link wcc">
+                                <img src="src/img/twitter.svg">
+                            </div>
+                            <p>Twitter</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!--*footer-->
+    <footer>
+        <article class="foot wcc">
+            <div class="copy-right">
+                <div class="name-foot" style="padding-right: 10px;border-right: 1px solid var(--color2);margin-right: 10px;">
+                    <p>ColorSea.com</p>
+                </div>
+                <div class="name-foot">
+                    <p>CopyRight : 2023 / 2024</p>
+                </div>
+            </div>
+        </article>
+    </footer>
+    <!--*script-->
+    <script src="src/js/pageEn.js"></script>
+
+</body>
+</html>

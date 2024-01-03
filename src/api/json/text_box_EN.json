@@ -1,0 +1,20 @@
+{
+    "page" : {
+        "intro1"   : "HELLO WELCOME TO OUR WEBSITE",
+        "intro2"   : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequuntur alias a accusantium iure sed, dolorem ratione modi ipsam dolore?",
+        "titleS1"  : "Servce Title",
+        "descS1"   : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rem assumenda excepturi sequi odio, quibusdam labore aperiam itaque inventore minima eos in voluptate. Modi, ipsam rem quia nemo dolorem hic repellendus! Voluptas doloremque sit nemo praesentium repellendus facere veniam nostrum.",
+        "titleS2"  : "Servce Title",
+        "descS2"   : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rem assumenda excepturi sequi odio, quibusdam labore aperiam itaque inventore minima eos in voluptate. Modi, ipsam rem quia nemo dolorem hic repellendus! Voluptas doloremque sit nemo praesentium repellendus facere veniam nostrum.",
+        "titleS3"  : "Servce Title",
+        "descS3"   : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rem assumenda excepturi sequi odio, quibusdam labore aperiam itaque inventore minima eos in voluptate. Modi, ipsam rem quia nemo dolorem hic repellendus! Voluptas doloremque sit nemo praesentium repellendus facere veniam nostrum.",
+        "aboutT1"  : "About us",
+        "aboutD1"  : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure tenetur distinctio ratione asperiores dolorum magni provident similique nostrum exercitationem porro ipsa corporis earum recusandae quis numquam, dignissimos ullam magnam. Libero dolores ratione aut quis cupiditate et ut optio at dolorem.",
+        "aboutT2"  : "How we are wotk",
+        "aboutD2"  : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure tenetur distinctio ratione asperiores dolorum magni provident similique nostrum exercitationem porro ipsa corporis earum recusandae quis numquam, dignissimos ullam magnam. Libero dolores ratione aut quis cupiditate et ut optio at dolorem.",
+        "aboutT3"  : "How to deliver orders",
+        "aboutD3"  : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure tenetur distinctio ratione asperiores dolorum magni provident similique nostrum exercitationem porro ipsa corporis earum recusandae quis numquam, dignissimos ullam magnam. Libero dolores ratione aut quis cupiditate et ut optio at dolorem.",
+        "requestT" : "Create yur request",
+        "requestD" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod fuga quo voluptas explicabo praesentium, sequi earum!"
+    }
+}
